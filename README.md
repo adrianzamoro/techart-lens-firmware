@@ -2,7 +2,7 @@
 
 This repository preserves all firmware versions for TECHART lens adapters, along with a Python tool to flash them from a laptop over Bluetooth — no Android phone needed.
 
-The original update app (`com.techart.updateall`) was abandoned and crashes on modern Android. The firmware server at `techart-logic.com` is still alive as of **April 2025**, but may not be forever. Everything here was archived from it. The manufacturer's support documentation has been dead for years, which is exactly why this exists.
+The original update app (`com.techart.updateall`) was abandoned and crashes on modern Android. The firmware server at `techart-logic.com` is still alive as of **April 2026**, but may not be forever. Everything here was archived from it. The manufacturer's support documentation has been dead for years, which is exactly why this exists.
 
 ### Status
 
