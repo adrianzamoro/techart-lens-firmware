@@ -1,4 +1,4 @@
-# TECHART Lens Adapter Firmware Archive
+# TECHART Lens Adapter Firmware Updater and Archive
 
 This repository preserves all firmware versions for TECHART lens adapters, along with a Python tool to flash them from a laptop over Bluetooth — no Android phone needed.
 
