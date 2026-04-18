@@ -2,7 +2,13 @@
 
 This repository preserves all firmware versions for TECHART lens adapters, along with a Python tool to flash them from a laptop over Bluetooth — no Android phone needed.
 
-The original update app (`com.techart.updateall`) was abandoned and crashes on modern Android. The firmware server at `techart-logic.com` is still alive as of **April 2025**, but may not be forever. Everything here was archived from it.
+The original update app (`com.techart.updateall`) was abandoned and crashes on modern Android. The firmware server at `techart-logic.com` is still alive as of **April 2025**, but may not be forever. Everything here was archived from it. The manufacturer's support documentation has been dead for years, which is exactly why this exists.
+
+### Status
+
+The full update flow was tested and confirmed working on a **TA-GA3** (Contax G → Sony E) running Contax G lenses on a Sony A7C. The adapter updated successfully and autofocus works normally after flashing.
+
+The BLE protocol is the same across all adapters in this family, so the script should work for the others too — but they haven't been tested. If you try it on an LM-EA7, EOS-NEXplus, EOS-NEX III or EOS-iNEX II and it works, feel free to open a PR updating this section.
 
 ---
 
@@ -93,8 +99,6 @@ python3 techart_updater.py --firmware firmware/TA-GA3/G-NEX3-2015-11-16.bin
 ```bash
 python3 techart_updater.py --firmware firmware/TA-GA3/G-NEX3-2015-11-16.bin --address AA:BB:CC:DD:EE:FF
 ```
-
-On macOS, BLE addresses are UUIDs, e.g. `4CAD6BCB-8F0D-759A-B1BB-0E466250F3B6`.
 
 **List available firmware versions** (from server):
 ```bash
