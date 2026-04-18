@@ -73,7 +73,7 @@ The BLE protocol is the same across all adapters in this family, so the script s
 
 ## Flashing from a Laptop
 
-The `techart_updater.py` script connects to the adapter over BLE and flashes any firmware file directly from macOS, Linux, or Windows — no Android required.
+The `techart_updater.py` script connects to the adapter over BLE and flashes any firmware file directly from macOS, Linux, or Windows — no Android required. See below how to enable pairing mode on the adaptor. 
 
 ### Requirements
 
