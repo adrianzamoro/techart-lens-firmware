@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+techart-env/
+.DS_Store
