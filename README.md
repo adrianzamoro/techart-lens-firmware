@@ -10,7 +10,7 @@ The original update app (`com.techart.updateall`) was abandoned and crashes on m
 
 | Adapter | Mount | Latest Firmware |
 |---------|-------|----------------|
-| **TA-GA3** | Canon EF → Sony E | Ver 2.2.0 (2015-11-16) |
+| **TA-GA3** | Contax G → Sony E | Ver 2.2.0 (2015-11-16) |
 | **EOS-NEX III** | Canon EF → Sony E | Ver 1.2.0 (2015-10-20) |
 | **EOS-NEXplus** | Canon EF → Sony E | Ver 4.0.0 (2019-04-20) |
 | **EOS-iNEX II** | Canon EF → Sony E | Ver 3.0.0 (2015-08-29) |
