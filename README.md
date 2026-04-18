@@ -101,7 +101,13 @@ On macOS, BLE addresses are UUIDs, e.g. `4CAD6BCB-8F0D-759A-B1BB-0E466250F3B6`.
 python3 techart_updater.py --list
 ```
 
+### Enabling Bluetooth on the adapter
+
+The adapter doesn't broadcast over Bluetooth by default. To enable it, switch the camera to manual mode, set the aperture to f/90, take a shot, then turn the camera off. Bluetooth will turn on automatically.
+
 ### Finding your adapter's BLE address
+
+Once Bluetooth is on, scan for it with:
 
 ```bash
 python3 -c "
@@ -117,11 +123,10 @@ asyncio.run(scan())
 "
 ```
 
-Look for a device named after your adapter model (e.g. `TA-GA3`).
+Look for a device named after your adapter model (e.g. `TA-GA3`). On macOS, addresses are UUIDs like `4CAD6BCB-8F0D-759A-B1BB-0E466250F3B6`. On Linux/Windows they look like `AA:BB:CC:DD:EE:FF`.
 
 ### Tips
 
-- The adapter must be powered on and have a lens attached to advertise over BLE.
 - Keep the adapter within ~50 cm of your laptop during the update.
 - The transfer takes about 6 minutes (118K bytes at 16 bytes/packet).
 - The adapter will disconnect and reboot automatically once all data is received — this is normal.
